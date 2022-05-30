@@ -1,0 +1,11 @@
+import numpy as np
+n=int(input('enter the size'))
+m=int(input('enter the size'))
+
+l=[]
+for i in range(n*m):
+  s=int(input("enter element"))
+  l.append(s)
+y=np.reshape(l,(n,m))
+o=np.sum(y,axis=-1)
+print("sum is ",o)
