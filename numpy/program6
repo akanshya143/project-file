@@ -1,0 +1,5 @@
+import numpy as np
+
+n=int(input("enter size of matrix"))
+
+print(np.eye(n,dtype=int))
