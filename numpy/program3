@@ -1,0 +1,12 @@
+import numpy as np
+n=int(input('enter the size'))
+m=int(input('enter the size'))
+
+l=[]
+for i in range(n*m):
+  s=int(input("enter element"))
+  l.append(s)
+y=np.reshape(l,(n,m))
+p=np.linalg.det(y)
+print("determinant is ",np.linalg.det(y)))
+print(np.ravel(y)
