@@ -1,0 +1,5 @@
+'ls=[]
+with open ("f.txt") as g:
+    for i in g:                 Q-9
+        ls.append(i)
+print(len(ls))  '''
