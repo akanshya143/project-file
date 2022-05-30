@@ -1,0 +1,5 @@
+import numpy as np
+ n=int(input("enter lower limit"))
+ m=int(input("enter upper limit"))
+ s=int(input("enter the space"))
+ print(np.linspace(n,m,s))
