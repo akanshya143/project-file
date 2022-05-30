@@ -1,0 +1,5 @@
+import numpy as np
+n=int(input())
+m=int(input())
+print(np.ones([m,n],dtype=int))
+print("after deleing\n ",np.empty([m,n]))
