@@ -1,0 +1,9 @@
+''a=open("f.txt","r")
+content=a.readlines()
+print(content)'''
+
+'''ls=[]
+with open("f.txt") as g:                
+    for line in g:
+        ls.append(line)
+print(ls)'''
